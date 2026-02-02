@@ -21,10 +21,10 @@ export default function ProductPage() {
 
     return (
         <>
-            <div className="container row gap-1 mt-5 ">
+            <div className="container row gap-1 mt-5  ">
                 {contxValue.map((product) => (
 
-                    < div key={product.id} className="card border border-3 border-primary-subtle col-2 bg-secondary-subtle" >
+                    < div key={product.id} className="card border border-3 border-primary-subtle col-4 bg-secondary-subtle" >
                         <figure className="my-figure">
                             <img className="img-fluid" src={product.image} alt={product.title} />
                         </figure>
