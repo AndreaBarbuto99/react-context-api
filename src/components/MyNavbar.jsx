@@ -7,9 +7,9 @@ export default function MyNavbar() {
 
     return (
         <header>
-            <nav>
-                <h2>E-commerce</h2>
-                <button onClick={() => setBudgetMode(!budgetMode)}>
+            <nav className="d-flex bg-info justify-content-between">
+                <h4 className="bg-primary-subtle text-center m-0 border border-1 border-warning">E-commerce</h4>
+                <button className="btn btn-danger btn-lg" onClick={() => setBudgetMode(!budgetMode)}>
                     {budgetMode ? "Disattiva modalità budget" : "Attiva modalità budget"}
                 </button>
             </nav>
