@@ -21,7 +21,7 @@ export default function ProductPage() {
 
     return (
         <>
-            <div className="container row">
+            <div className="container row gap-1 mt-5 ">
                 {contxValue.map((product) => (
 
                     < div key={product.id} className="card border border-3 border-primary-subtle col-2 bg-secondary-subtle" >
